@@ -1,0 +1,22 @@
+.skill-progress-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+.skill-percentage-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-progress-bar{
+    height: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.skill-progress{
+    background-color: var(--accent-primary);
+    border-radius: inherit;
+}

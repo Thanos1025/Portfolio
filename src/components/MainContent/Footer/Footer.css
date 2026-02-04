@@ -1,0 +1,54 @@
+.footer{
+    min-width: 85vw;
+    border-top: 1px solid var(--border-default);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.quicklinks-contact-wrapper{
+    min-width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.about-myself h1{
+    font-size: var(--xxl-font-size);
+    font-weight: var(--bold);
+    line-height: var(--normal-line-height);
+    margin: 20px 0;
+}
+
+.about-myself p{
+    font-size: var(--xm-font-size);
+    line-height: var(--medium-line-height);
+    font-weight: var(--light);
+    margin-bottom: 20px;
+}
+
+.quick-links , .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quick-links h1, .contact h1{
+    font-size: var(--m-font-size);
+}
+
+.quick-links p, .contact p{
+    font-size: var(--n-font-size);
+}
+
+.footer hr{
+    width: 80%;
+    color: var(--bg-elevated);
+}
+
+.copywright-links-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}

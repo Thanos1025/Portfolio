@@ -1,0 +1,13 @@
+.secondary-btn{
+    padding: 8px 12px;
+    font-weight: var(--extra-bold);
+    color: var(--border-default);
+    border-radius: var(--large-radius);
+    border: 2px solid var(--border-default);
+    transition: all 0.4s ease;
+}
+
+.secondary-btn:hover{
+    border: 2px solid var(--border-focus);
+    color: var(--border-focus);
+}

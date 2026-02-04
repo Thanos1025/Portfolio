@@ -1,0 +1,73 @@
+.codewar{
+    min-width: 60vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    border-radius: var(--extra-large-radius);
+    background-color: var(--bg-secondary);
+}
+
+.codewar-content{
+
+}
+
+.codewar-content h1{
+    font-size: var(--xxl-font-size);
+    font-weight: var(--bold);
+    line-height: var(--normal-line-height);
+    margin: 20px 0;
+}
+
+.codewar-content p{
+    font-size: var(--xm-font-size);
+    line-height: var(--medium-line-height);
+    font-weight: var(--light);
+    margin-bottom: 20px;
+}
+
+.codewar-profile-container{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.codewar-profile-container img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid var(--border-default);
+    border-radius: var(--small-radius);
+}
+
+.codewar-profile h1{
+    font-size: var(--xm-font-size);
+    font-weight: var(--bold);
+    line-height: var(--normal-line-height);
+    margin-bottom: 10px;
+}
+
+.codewar-stat-buttons-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.codewar-stat-button{
+    width: 300px;
+    padding: 20px;
+    border-radius: var(--medium-radius);
+}
+
+.codewar-stat-button h1{
+    font-size: var(--xxl-font-size);
+    font-weight: var(--bold);
+    line-height: var(--normal-line-height);
+    margin-bottom: 10px;
+}
+
+.codewar-stat-button p{
+    font-size: var(--xm-font-size);
+    line-height: var(--medium-line-height);
+    font-weight: var(--light);
+}

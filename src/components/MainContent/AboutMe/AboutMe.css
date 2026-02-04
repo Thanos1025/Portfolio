@@ -1,0 +1,75 @@
+.about-me{
+    max-width: 75vw;
+    height: 70vh;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-me-content{
+    width: 40%;
+}
+
+.about-me-content h1{
+    font-size: var(--xxl-font-size);
+    font-weight: var(--bold);
+    line-height: var(--normal-line-height);
+    margin: 20px 0;
+}
+
+.about-me-content h1 span{
+    color: var(--text-tertiary);
+}
+
+.about-me-content h1 .dev{
+    color: var(--text-accent)
+}
+
+.about-me-content p{
+    font-size: var(--xm-font-size);
+    line-height: var(--medium-line-height);
+    font-weight: var(--light);
+    margin-bottom: 20px;
+}
+
+.contact-link-buttons-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.contact-link-buttons-wrapper button{
+    padding: 12px;
+    border: 1px solid var(--accent-primary);
+    color: var(--text-accent);
+    border-radius: var(--small-radius);
+    transition: all 0.4s ease;
+}
+
+.contact-link-buttons-wrapper button:hover{
+    border: 1px solid var(--accent-primary);
+    background-color: var(--accent-primary);
+    color: var(--text-primary);
+}
+.image-container{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-frame{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-image: conic-gradient(transparent 25deg,var(--accent-primary) 25deg, var(--accent-primary) 260deg, transparent 260deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image-frame img{
+    width: 450px;
+}

@@ -1,0 +1,105 @@
+.assignments{
+    min-width: 75vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.assignments-language-buttons-wrapper{
+    height: 50px;
+    max-width: 35%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.selected-language-button .language-button{
+    animation: bubbleBurst 0.8s ease 1 forwards;
+}
+
+.selected-language-button .language-button-inner-text{
+    background-color: var(--accent-primary);
+}
+
+.language-button-inner-text{
+    padding: 15px;
+    border-radius: var(--large-radius);
+}
+
+.language-button-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-button-glass{
+    padding: 15px;
+    height: 1em;
+    font-size: var(--m-font-size);
+    border-radius: var(--large-radius);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    backdrop-filter: blur(0.6px);
+}
+
+.language-button{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease;
+}
+
+@keyframes bubbleBurst {
+  0% {
+    transform: scalex(1) scaleY(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scalex(1.4) scaleY(1.4) scaleZ(1.4);
+    border-radius: 200px;
+    opacity: 0;
+  }
+}
+
+.language-selected{
+    all: unset;
+    padding: 15px;
+    height: 1em;
+    font-size: var(--m-font-size);
+    border-radius: var(--large-radius);
+    background-color: var(--accent-primary);
+}
+
+.language-button:hover{
+    transform: scale(1.3);
+}
+
+.assignments-list{
+    min-width: 45%;
+    list-style: none;
+    background-color: var(--bg-secondary);
+    padding: 30px;
+    border-radius: var(--large-radius);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.assignment-button{
+    padding: 20px;
+    cursor: pointer;
+    border-radius: var(--small-radius);
+    vertical-align: center;
+    transition: all 0.4s ease;
+}
+
+.assignment-button:hover{
+    transform: scale(1.1);
+}
+
+.assignment-button span{
+    font-size: var(--xm-font-size);
+    margin-right: 20px;
+}

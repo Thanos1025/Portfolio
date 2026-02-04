@@ -1,0 +1,30 @@
+.projects{
+    max-width: 85vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.projects-content{
+    max-width: 40%;
+}
+
+.projects-content h1{
+    font-size: var(--xxl-font-size);
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.projects-content p{
+    font-size: var(--xm-font-size);
+    font-weight: var(--light);
+    line-height: var(--normal-line-height);
+    color: var(--text-tertiary);
+}
+
+.project-cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

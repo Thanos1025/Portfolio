@@ -1,0 +1,26 @@
+.skills {
+    min-width: 75vw;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+}
+
+.skills-content h1 {
+    font-size: var(--xxl-font-size);
+    font-weight: var(--bold);
+    line-height: var(--normal-line-height);
+    margin: 20px 0;
+}
+
+.skills-content p {
+    font-size: var(--xm-font-size);
+    line-height: var(--medium-line-height);
+    font-weight: var(--light);
+    margin-bottom: 20px;
+}
+
+.skillcards-wrapper{
+    display: flex;
+    justify-content: space-between;
+}

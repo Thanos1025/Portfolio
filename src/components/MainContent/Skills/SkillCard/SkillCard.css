@@ -1,0 +1,33 @@
+.skill-card{
+    background-color: var(--bg-secondary);
+    border-radius: var(--large-radius);
+    width: 380px;
+    height: 420px;
+    padding: 30px;
+    border: 1px solid transparent;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.skill-card:hover {
+    border: 1px solid var(--accent-hover);
+    transform: scale(1.06);
+}
+
+.skill-card h1{
+    font-size: var(--l-font-size);
+    font-weight: var(--semi-bold);
+    line-height: var(--normal-line-height);
+}
+
+.skill-card hr{
+    color: var(--bg-elevated);
+    margin: 25px 0;
+}
+
+.skill-stats-wrapper{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
