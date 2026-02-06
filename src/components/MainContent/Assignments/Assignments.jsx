@@ -17,19 +17,19 @@ export const Assignments = () => {
           <div className='language-button'>
             <FrostGlassBox className='language-button-glass'></FrostGlassBox>
           </div>
-          <div className='language-button-inner-text'>Javascript</div>
+          <div className='language-button-inner-text'>Html</div>
         </div>
         <div className='language-button-wrapper'>
           <div className='language-button'>
             <FrostGlassBox className='language-button-glass'></FrostGlassBox>
           </div>
-          <div className='language-button-inner-text'>Javascript</div>
+          <div className='language-button-inner-text'>Css</div>
         </div>
         <div className='language-button-wrapper'>
           <div className='language-button'>
             <FrostGlassBox className='language-button-glass'></FrostGlassBox>
           </div>
-          <div className='language-button-inner-text'>Javascript</div>
+          <div className='language-button-inner-text'>Java</div>
         </div>
       </div>
       <ul className='assignments-list'>
