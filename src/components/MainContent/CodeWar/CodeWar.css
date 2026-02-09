@@ -31,6 +31,16 @@
     display: flex;
     gap: 20px;
     align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid var(--accent-primary);
+    border-radius: var(--medium-radius);
+    width: 30%;
+}
+
+.codewar-profile-container:hover{
+    transform: scale(1.1);
+    background-color: var(--accent-primary);
 }
 
 .codewar-profile-container img{
@@ -57,6 +67,11 @@
     width: 300px;
     padding: 20px;
     border-radius: var(--medium-radius);
+    transition: all 0.3s ease;
+}
+
+.codewar-stat-button:hover{
+    transform: scale(1.2);
 }
 
 .codewar-stat-button h1{
@@ -64,6 +79,7 @@
     font-weight: var(--bold);
     line-height: var(--normal-line-height);
     margin-bottom: 10px;
+    color: var(--accent-primary);
 }
 
 .codewar-stat-button p{

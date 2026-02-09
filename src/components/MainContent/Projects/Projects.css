@@ -1,5 +1,5 @@
 .projects{
-    max-width: 87vw;
+    max-width: 70vw;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -26,5 +26,5 @@
 .project-cards-wrapper{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
 }

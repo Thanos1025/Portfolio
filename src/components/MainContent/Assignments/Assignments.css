@@ -1,6 +1,31 @@
 .assignments{
     min-width: 75vw;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.assignments-content{
+    padding-left: 30px;
+}
+
+.assignments-content h1 {
+    font-size: var(--xxl-font-size);
+    font-weight: var(--bold);
+    line-height: var(--normal-line-height);
+    margin: 20px 0;
+}
+
+.assignments-content p {
+    font-size: var(--xm-font-size);
+    line-height: var(--medium-line-height);
+    font-weight: var(--light);
+    margin-bottom: 20px;
+    width: 520px;
+}
+
+.language-assignment-wrapper{
+    display: flex;
     justify-content: space-between;
 }
 
@@ -22,8 +47,10 @@
 }
 
 .language-button-inner-text{
-    padding: 15px;
+    padding: 20px;
     border-radius: var(--large-radius);
+    font-size: var(--xm-font-size);
+    transition: all 0.3s ease;
 }
 
 .language-button-wrapper{
@@ -34,7 +61,7 @@
 }
 
 .language-button-glass{
-    padding: 15px;
+    padding: 20px;
     height: 1em;
     font-size: var(--m-font-size);
     border-radius: var(--large-radius);
@@ -78,6 +105,7 @@
 
 .assignments-list{
     min-width: 45%;
+    height: 50vh;
     list-style: none;
     background-color: var(--bg-secondary);
     padding: 30px;
@@ -102,4 +130,6 @@
 .assignment-button span{
     font-size: var(--xm-font-size);
     margin-right: 20px;
+    color: var(--accent-primary);
+    font-weight: var(--bold);
 }

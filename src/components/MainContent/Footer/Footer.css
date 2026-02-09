@@ -19,6 +19,7 @@
     font-weight: var(--bold);
     line-height: var(--normal-line-height);
     margin: 20px 0;
+    color: var(--text-secondary);
 }
 
 .about-myself p{
@@ -31,15 +32,25 @@
 .quick-links , .contact {
     display: flex;
     flex-direction: column;
-    gap: 15px;
 }
 
 .quick-links h1, .contact h1{
-    font-size: var(--m-font-size);
+    font-size: var(--xm-font-size);
+    color: var(--accent-primary);
+    padding: 10px 0;
 }
 
 .quick-links p, .contact p{
     font-size: var(--n-font-size);
+    color: var(--text-tertiary);
+    transition: all 0.4s ease;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.quick-links p:hover, .contact p:hover{
+    transform: scale(1.1) translateX(-12px);
+    color: var(--text-secondary);
 }
 
 .footer hr{
@@ -51,4 +62,27 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.links-button-wrapper{
+    display: flex;
+    gap: 10px;
+}
+
+.links-button-wrapper button{
+    width: 50px;
+    height: 50px;
+    background-color: var(--accent-primary);
+    color: var(--bg-secondary);
+    border-radius: var(--extra-large-radius);
+    text-align: center;
+    vertical-align: center;
+    font-size: var(--l-font-size);
+    transition: all 0.2s ease;
+}
+
+.links-button-wrapper button:hover{
+    color: var(--text-secondary);
+    transform: scale(1.2);
 }

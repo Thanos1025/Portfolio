@@ -7,7 +7,8 @@ import {Assignments} from '../MainContent/Assignments/Assignments';
 import {Footer} from '../MainContent/Footer/Footer';
 import './Main.css'
 
-export const  Main = () => {
+export const  Main = (props) => {
+  const {setSelectedButtonId} = props;
   return (
     <div className='main'>
         <AboutMe></AboutMe>
@@ -15,7 +16,7 @@ export const  Main = () => {
         <Skills></Skills>
         <Assignments></Assignments>
         <CodeWar></CodeWar>
-        <Footer></Footer>
+        <Footer setSelectedButtonId={setSelectedButtonId}></Footer>
     </div>
   )
 }

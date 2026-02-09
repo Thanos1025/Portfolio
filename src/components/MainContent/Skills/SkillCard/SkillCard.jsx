@@ -2,17 +2,18 @@ import React from 'react'
 import './SkillCard.css'
 import { SkillProgressBar } from '../SkillProgressBar/SkillProgressBar'
 
-export const SkillCard = () => {
+export const SkillCard = (props) => {
+  const {departmentName, skillStats} = props;
   return (
     <div className='skill-card'>
-      <h1>Web Technologies</h1>
+      <h1>{departmentName}</h1>
       <hr />
       <div className='skill-stats-wrapper'>
-        <SkillProgressBar name="SkillName" progress={60}></SkillProgressBar>
-        <SkillProgressBar name="SkillName" progress={60}></SkillProgressBar>
-        <SkillProgressBar name="SkillName" progress={60}></SkillProgressBar>
-        <SkillProgressBar name="SkillName" progress={60}></SkillProgressBar>
-        <SkillProgressBar name="SkillName" progress={60}></SkillProgressBar>
+        {
+          skillStats.map((skillStat)=>{
+            return (<SkillProgressBar name={skillStat.name} progress={skillStat.progress}></SkillProgressBar>)
+          })
+        }
       </div>
     </div>
   )

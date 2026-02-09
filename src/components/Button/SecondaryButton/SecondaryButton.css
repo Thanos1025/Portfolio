@@ -5,9 +5,10 @@
     border-radius: var(--large-radius);
     border: 2px solid var(--border-default);
     transition: all 0.4s ease;
+    cursor: default;
 }
 
-.secondary-btn:hover{
+/* .secondary-btn:hover{
     border: 2px solid var(--border-focus);
     color: var(--border-focus);
-}
+} */
