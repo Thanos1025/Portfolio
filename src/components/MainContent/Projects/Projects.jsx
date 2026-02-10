@@ -8,22 +8,22 @@ export const Projects = () => {
     {
       name: "Zoho writer style editor replica",
       description: "A text editing app which format your styles of text ",
-      learned: "Realtime editor working algorithm and manipulate the text by creating Abract Syntax Tree and render it to UI",
+      learned: "Realtime editor working algorithm and manipulate the text by creating Abstract Syntax Tree and render it to UI",
       languages: ["html/css", "javascript", "node-js", "mysql"],
       projectLink: "https://github.com/Thanos1025/Writer",
       previewImage: "writer.png"
     },
     {
       name: "Email System",
-      description: "A console email application where you can send, recieve, draft your email inside my app.",
-      learned: "Through this project I have learned business logic of how to send, draft email and create subemails and how to apply fiter and many other.",
+      description: "A console-based email application that simulates core email functionalities by implementing internal logic.",
+      learned: "Through this project I have learned business logic of how to send, draft email and create subemails and how to apply filter and many other.",
       languages: ["java","mysql"],
       projectLink: "https://github.com/Thanos1025/email_system",
       previewImage: "email_system.png"
     },
     {
-      name: "ORM Tool",
-      description: "A framework to query database without writing query by using annotation and read it by reflection.",
+      name: "ORM Tool(Object Relational Mapping)",
+      description: "A framework that enables database queries without writing SQL, using annotations and reflection.",
       learned: "I got a grasp about what are reflections and how should we use it in real applications.",
       languages: ["java","mysql"],
       projectLink: "https://github.com/Thanos1025/ORMTool",
@@ -31,7 +31,7 @@ export const Projects = () => {
     },
     {
       name: "Ui Builder",
-      description: "An image to code converter LLM where you give an image and read it with an llm and convert it into code",
+      description: "An image-to-code converter powered by an LLM that interprets visual inputs and generates corresponding source code.",
       learned: "How to work with local llm like llama, qwen and how to build an agentic flow.",
       languages: ["react/css","java","mysql", "Combined Project-Priya" ],
       projectLink: "https://github.com/Thanos1025/ORMTool",
@@ -39,7 +39,7 @@ export const Projects = () => {
     },
     {
       name: "Versioned Stack",
-      description: "A custom stack data structure which takes you to the your previous timeline.",
+      description: "A custom stack data structure which takes you to the previous timeline.",
       learned: "Internal Working of Stack, HashMap and HashSet",
       languages: ["java"],
       projectLink: "https://github.com/Thanos1025/CustomCollections",
