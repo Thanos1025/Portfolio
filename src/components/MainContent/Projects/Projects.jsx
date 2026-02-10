@@ -8,7 +8,7 @@ export const Projects = () => {
     {
       name: "Zoho writer style editor replica",
       description: "A text editing app which format your styles of text ",
-      learned: "Realtime editor working algorithm and manipulate the text by creating Abstract Syntax Tree and render it to UI",
+      learned: "Realtime editor working algorithm and manipulate text by creating Abstract Syntax Tree and render it to UI",
       languages: ["html/css", "javascript", "node-js", "mysql"],
       projectLink: "https://github.com/Thanos1025/Writer",
       previewImage: "writer.png"
