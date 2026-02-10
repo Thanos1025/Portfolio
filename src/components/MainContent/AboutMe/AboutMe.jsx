@@ -26,7 +26,7 @@ export const AboutMe = () => {
             </div>
             <div className="image-container">
                 <div className='image-frame'>
-                    <img src='ultimate.png'></img>
+                    <img src='profile4.png'></img>
                 </div>
             </div>
         </div>

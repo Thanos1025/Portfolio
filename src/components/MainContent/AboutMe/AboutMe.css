@@ -86,5 +86,6 @@
 }
 
 .image-frame img {
-    width: 450px;
+    margin-top: 35px;
+    width: 550px;
 }

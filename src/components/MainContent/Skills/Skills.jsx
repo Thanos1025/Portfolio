@@ -6,7 +6,7 @@ import { SkillCard } from './SkillCard/SkillCard';
 export const Skills = () => {
   const skillCards = [
     {
-      departmentName: "Web",
+      departmentName: "Frontend",
       skillStats: [
         {
           name: "Html",
