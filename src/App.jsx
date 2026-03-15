@@ -8,6 +8,8 @@ import { aboutMe, assignment, code, codeFile, projects, skills } from './compone
 export const ElementContext = createContext();
 export const App = () => {
   const [selectedButtonId, setSelectedButtonId] = useState(0);
+  const body = useRef(null);
+  const shouldScrollRef = useRef(false);
   const buttons = [
     {
       id: 0,
@@ -41,7 +43,6 @@ export const App = () => {
     }
   ]
   useEffect(() => {
-    // guard in case ref isn't attached or button index is invalid
     if (!body.current) return;
     const target = buttons[selectedButtonId];
     if (!target) return;
@@ -58,9 +59,6 @@ export const App = () => {
       shouldScrollRef.current = false;
     }
   }, [selectedButtonId])
-
-  const body = useRef(null);
-  const shouldScrollRef = useRef(false);
 
   // wrapper used by children to request a programmatic scroll when they
   // change the selected button (e.g. clicking the NavBar). This toggles

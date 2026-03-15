@@ -20,15 +20,15 @@ export const CodeWar = () => {
       </div>
       <div className='codewar-stat-buttons-wrapper'>
         <FrostGlassBox className="codewar-stat-button">
-          <h1>6kyu</h1>
+          <h1>5kyu</h1>
           <p>Current Rank</p>
         </FrostGlassBox>
         <FrostGlassBox className="codewar-stat-button">
-          <h1>212</h1>
+          <h1>367</h1>
           <p>Honor Points</p>
         </FrostGlassBox>
         <FrostGlassBox className="codewar-stat-button">
-          <h1>55+</h1>
+          <h1>70+</h1>
           <p>Katas Completed</p>
         </FrostGlassBox>
       </div>
