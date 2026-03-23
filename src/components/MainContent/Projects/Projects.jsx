@@ -30,20 +30,20 @@ export const Projects = () => {
       previewImage: "orm_tool.png"
     },
     {
-      name: "Ui Builder",
-      description: "An image-to-code converter powered by an LLM that interprets visual inputs and generates corresponding source code.",
-      learned: "How to work with local llm like llama, qwen and how to build an agentic flow.",
-      languages: ["react/css","java","mysql", "Combined Project-Priya" ],
-      projectLink: "https://github.com/Thanos1025/ORMTool",
-      previewImage: "uibuilder.png"
-    },
-    {
       name: "Versioned Stack",
       description: "A custom stack data structure which takes you to the previous timeline.",
       learned: "Internal Working of Stack, HashMap and HashSet",
       languages: ["java"],
       projectLink: "https://github.com/Thanos1025/CustomCollections",
       previewImage: "versioned_stack.png"
+    },
+    {
+      name: "Ui Builder",
+      description: "An image-to-code converter powered by an LLM that interprets visual inputs and generates corresponding source code.",
+      learned: "How to work with local llm like llama, qwen and how to build an agentic flow.",
+      languages: ["react/css","java","mysql", "Combined Project-Priya" ],
+      projectLink: "https://github.com/Thanos1025/ORMTool",
+      previewImage: "uibuilder.png"
     }
   ]
   return (
