@@ -10,7 +10,7 @@ export const Projects = () => {
       description: "A text editing app which format your styles of text ",
       learned: "Realtime editor working algorithm and manipulate text by creating Abstract Syntax Tree and render it to UI",
       languages: ["react-js", "node-js", "mysql"],
-      projectLink: "https://github.com/Thanos1025/Writer",
+      projectLink: "https://github.com/Thanos1025/MarkdownEditor",
       previewImage: "markdown.png"
     },
     {
