@@ -38,12 +38,12 @@ export const Projects = () => {
       previewImage: "versioned_stack.png"
     },
     {
-      name: "Ui Builder",
-      description: "An image-to-code converter powered by an LLM that interprets visual inputs and generates corresponding source code.",
-      learned: "How to work with local llm like llama, qwen and how to build an agentic flow.",
+      name: "Murai",
+      description: "A code reviewer which translate any ai generated code into your own ruleset and give you the feedback with the help of local LLM.",
+      learned: "I have learned how to use local LLM, how does prompt engineering work, and how to split prompts.",
       languages: ["react/css","java","mysql", "Combined Project-Priya" ],
-      projectLink: "https://github.com/Thanos1025/ORMTool",
-      previewImage: "uibuilder.png"
+      projectLink: "https://github.com/Thanos1025/Code_Translator_Backend",
+      previewImage: "code_translator.png"
     }
   ]
   return (
