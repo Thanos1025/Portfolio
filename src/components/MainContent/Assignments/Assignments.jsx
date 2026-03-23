@@ -118,8 +118,8 @@ export const Assignments = () => {
       },
       {
         id: "04",
-        name: "CabBookingSystem",
-        link: "https://github.com/Thanos1025/CabBookingSystem"
+        name: "Ping Pong Game",
+        link: "https://github.com/Thanos1025/PingPongGame"
       },
       {
         id: "05",
@@ -177,7 +177,7 @@ export const Assignments = () => {
   ]
 
   useEffect(() => {
-    setSelectedLanguageId(3);
+    setSelectedLanguageId(2);
   }, [])
 
   useEffect(() => {
