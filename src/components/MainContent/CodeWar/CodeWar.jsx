@@ -11,10 +11,10 @@ export const CodeWar = () => {
         <h1>Code War Journey</h1>
         <p>My competitive programming achievements and progress</p>
       </div>
-      <div onClick={()=>window.open("https://www.codewars.com/users/Thanos1025/stats")} className='codewar-profile-container'>
+      <div onClick={()=>window.open("https://www.codewars.com/users/PonyogiM/stats")} className='codewar-profile-container'>
         <img src="codewar.svg" alt="" />
         <div className='codewar-profile'>
-          <h1>Thanos1025</h1>
+          <h1>PonyogiM</h1>
           <p>My Progress in Coding</p>
         </div>
       </div>
