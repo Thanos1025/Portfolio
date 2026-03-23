@@ -6,12 +6,12 @@ import { SecondaryButton } from '../../Button/SecondaryButton/SecondaryButton';
 export const Projects = () => {
   const projects = [
     {
-      name: "Zoho writer style editor replica",
+      name: "Markdown editor",
       description: "A text editing app which format your styles of text ",
       learned: "Realtime editor working algorithm and manipulate text by creating Abstract Syntax Tree and render it to UI",
-      languages: ["html/css", "javascript", "node-js", "mysql"],
+      languages: ["react-js", "node-js", "mysql"],
       projectLink: "https://github.com/Thanos1025/Writer",
-      previewImage: "writer.png"
+      previewImage: "markdown.png"
     },
     {
       name: "Email System",
