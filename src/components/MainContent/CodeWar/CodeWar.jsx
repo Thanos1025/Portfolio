@@ -24,11 +24,11 @@ export const CodeWar = () => {
           <p>Current Rank</p>
         </FrostGlassBox>
         <FrostGlassBox className="codewar-stat-button">
-          <h1>391</h1>
+          <h1>521</h1>
           <p>Honor Points</p>
         </FrostGlassBox>
         <FrostGlassBox className="codewar-stat-button">
-          <h1>75+</h1>
+          <h1>80+</h1>
           <p>Katas Completed</p>
         </FrostGlassBox>
       </div>
